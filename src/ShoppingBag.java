@@ -6,7 +6,7 @@ public class ShoppingBag implements Directions {
     {
         World.readWorld("worlds/fig2-10.kwld");
         World.setVisible(true);
-        World.setDelay(75);
+        World.setDelay(20);
         //World.showSpeedControl(true);
 
         int row = 5;
@@ -14,5 +14,28 @@ public class ShoppingBag implements Directions {
         UrRobot bot = new UrRobot(row, col,
                 East, 0);
 
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.pickBeeper();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.move();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
     }
 }
