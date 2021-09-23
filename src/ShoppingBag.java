@@ -37,5 +37,12 @@ public class ShoppingBag implements Directions {
         bot.turnLeft();
         bot.turnLeft();
         bot.move();
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.move();
+        bot.move();
     }
 }
