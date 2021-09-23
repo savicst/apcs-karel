@@ -1,6 +1,6 @@
 KarelWorld
-streets 9
-avenues 13
+streets 13
+avenues 14
 beepers 1 1 1
 beepers 2 1 1
 beepers 1 5 1
@@ -32,3 +32,4 @@ northsouthwalls 8 3 3
 northsouthwalls 9 3 3
 northsouthwalls 11 4 4
 northsouthwalls 12 5 5
+northsouthwalls 13 1 5
