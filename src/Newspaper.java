@@ -7,8 +7,11 @@ public class Newspaper implements Directions{
         World.setVisible(true);
         World.setDelay(100);
 
-        UrRobot bot = new UrRobot(3, 4,
-                West, 0);
+        UrRobot bot = new UrRobot(3, 4, West, 0);
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
 
     }
 }
