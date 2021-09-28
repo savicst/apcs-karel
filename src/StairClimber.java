@@ -8,13 +8,33 @@ public class StairClimber implements Directions {
     {
         World.readWorld("worlds/fig3-1.kwld");
         World.setVisible(true);
-        World.setDelay(75);
+        World.setDelay(20);
         //World.showSpeedControl(true);
 
         int row = 1;
         int col = 1;
         UrRobot bot = new UrRobot(row, col,
                 East, 1);
-
+        bot.turnLeft();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.turnLeft();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.turnLeft();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
     }
 }
