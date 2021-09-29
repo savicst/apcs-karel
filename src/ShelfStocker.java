@@ -8,13 +8,13 @@ public class ShelfStocker implements Directions {
     {
         World.readWorld("worlds/shelf.kwld");
         World.setVisible(true);
-        World.setDelay(75);
+        World.setDelay(20);
         //World.showSpeedControl(true);
 
         int row = 1;
         int col = 1;
         UrRobot bot = new UrRobot(row, col,
                 North, 1);
-
+        
     }
 }
